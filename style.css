@@ -1,0 +1,117 @@
+#hobby {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(#40C4FF 0%, #76FF03 100%);
+    color: white;
+    padding-top: 200px;
+    z-index: 9;
+    font-family: Dancing Script;
+}
+
+body {
+    text-align: center;
+    padding-bottom: 800px;
+}
+
+h1 {
+    font-weight: 300;
+    font-family: Pacifico;
+}
+
+#Image {
+    width: 200px;
+    border-radius: 100%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    height: 200px;
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.line {
+    height: 6px;
+    width: 300px;
+    background-color: black;
+    margin: 8px auto;
+}
+
+.links {
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 25px;
+    color: white;
+    font-family: Pacifico;
+}
+
+.links:hover {
+    background-color: #00ffb7;
+}
+
+p {
+    font-family: Dancing Script;
+    font-size: 20px;
+}
+
+#about {
+    font-family: Dancing Script;
+    width: 100%;
+    background-color: #76FF03;
+    color: white;
+    padding-top: 200px;
+    margin-top: 800px;
+    font-size: 25px;
+    height: 800px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#work {
+    font-family: Dancing Script;
+    width: 100%;
+    background: linear-gradient(#76FF03 0%, #ff1500 100%);
+    color: white;
+    font-size: 25px;
+    height: 800px;
+    margin-top: -31px;
+}
+
+#contact {
+    background: linear-gradient(#ff1500 0%, #9900ff 100%)
+}
+
+.contact1 h3 {
+    display: inline;
+}
+
+.contact1 a {
+    color: white;
+    text-shadow: none;
+}
+
+#inspiration {
+    font-family: Dancing Script;
+    width: 100%;
+    background-color: #ff1500;
+    color: white;
+    font-size: 25px;
+    height: 800px;
+    margin-top: -32px;
+}
